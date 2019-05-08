@@ -1,6 +1,4 @@
-# Welcome to my tiny slice of the internet!
-
-## Courtesy of Github Pages.
+# Welcome to my tiny slice of the internet! (Courtesy of Github Pages)
 
 The plan is for this page to become a portfolio of my personal projects hosted here on Github.
 
