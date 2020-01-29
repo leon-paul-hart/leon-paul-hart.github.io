@@ -28,7 +28,10 @@ url: "https://leon-paul-hart.github.io" # the base hostname & protocol for your 
 github_username:  leon-paul-hart
 
 # Build settings
-theme: minima
+
+# removed minima theme
+# theme: minima
+
 plugins:
   - jekyll-feed
 
