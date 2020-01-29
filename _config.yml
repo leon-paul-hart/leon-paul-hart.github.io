@@ -21,7 +21,7 @@
 title: Leon-Paul-Hart.github.io
 email: leon.paul.hart@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my portfolio of projects and my blog sharing my journey into programming and web development.
+  Welcome to my portfolio and programming blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leon-paul-hart.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
