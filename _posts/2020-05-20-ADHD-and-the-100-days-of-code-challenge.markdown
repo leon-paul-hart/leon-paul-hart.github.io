@@ -2,7 +2,7 @@
 layout: post
 title:  "ADHD and the 100 days of code challenge"
 date:   2020-05-20 10:55:00 +0000
-categories: blog, ADHD, neurodiversity, #100daysofcode
+categories: blog ADHD neurodiversity #100daysofcode
 ---
 
 ## 100 Days of code - The challenges ahead
