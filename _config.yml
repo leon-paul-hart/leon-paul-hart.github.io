@@ -34,7 +34,7 @@ linkedin_username: leon-paul-hart
 # Author is the default name used for blog posts, the ATom feed, and is also shown on the footer
 author: Leon-Paul Hart
 
-# New fields not included in the minima theme by default or creted with the 'jekyll new' command
+# New fields not included in the minima theme by default or created with the 'jekyll new' command
 copyright: "Leon-Paul Hart"
 
 # Build settings
@@ -42,6 +42,7 @@ copyright: "Leon-Paul Hart"
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-email-protect
 
 # Exclude from processing.
 # The following items will not be processed, by default.
