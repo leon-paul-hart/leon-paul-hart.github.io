@@ -40,4 +40,4 @@ Honestly, it's accountability, I'm putting this out there as a way to hold mysel
 
 ## Welcome to 100 days of code ADHD style!
 
-Lets get started!
+Lets get started!!!
