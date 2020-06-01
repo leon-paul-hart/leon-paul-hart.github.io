@@ -11,7 +11,7 @@ source "https://rubygems.org"
 
 # Happy Jekylling!
 
-gem "jekyll", "~> 4.0.0"
+gem "jekyll", "> 4.0.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
@@ -22,14 +22,14 @@ gem "jekyll", "~> 4.0.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "> 0.12"
   gem 'jekyll-email-protect'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "> 1.2"
   gem "tzinfo-data"
 end
 
