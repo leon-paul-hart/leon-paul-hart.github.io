@@ -2,7 +2,7 @@
 layout: post
 title:  "ADHD and the 100 days of code challenge"
 date:   2020-05-20 10:55:00 +0000
-categories: blog ADHD neurodiversity #100daysofcode
+categories: blog ADHD 100daysofcode
 ---
 
 ## 100 Days of code - The challenges ahead
@@ -38,6 +38,6 @@ Honestly, it's accountability, I'm putting this out there as a way to hold mysel
 - I'm very interested in 'workflows' for obvious reasons, nothing I've seen out there tutorial wise takes you from the very beginning of setting up a code repository and pipeline, adding automated unit and build tests, using TDD/BDD practices in the developing process and then deploying in a CI/CD way, it's all an incredibly fragmented and uncoordinated mess out there right now, with too many options and not enough consistency, this 'bothers' me as it is a blocker to my work flow, I hope to discover a process that works for me.
 - I'll hopefully have a nice portfolio of work from it that I can be proud of.
 
-## Welcome to 100 days of code ADHD style!
+### Welcome to 100 days of code ADHD style!
 
 Lets get started!!!
