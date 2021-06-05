@@ -1,6 +1,6 @@
 # leon-paul-hart.github.io
 
-![Ruby](https://github.com/leon-paul-hart/leon-paul-hart.github.io/workflows/Ruby/badge.svg?branch=master)
+[![Jekyll site CI](https://github.com/leon-paul-hart/leon-paul-hart.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/leon-paul-hart/leon-paul-hart.github.io/actions/workflows/jekyll.yml)
 
 ## Welcome to my portfolio and programming blog
 
