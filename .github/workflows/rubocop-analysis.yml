@@ -25,7 +25,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.6
+        ruby-version: 3.0
 
     # This step is not necessary if you add the gem to your Gemfile
     - name: Install Code Scanning integration
@@ -35,11 +35,7 @@ jobs:
       run: bundle install
 
     - name: Rubocop run
-      run: |
-        bash -c "
-          bundle exec rubocop --require code_scanning --format CodeScanning::SarifFormatter -o rubocop.sarif
-          [[ $? -ne 2 ]]
-        "
+      run:  bundle exec rubocop --require code_scanning --format CodeScanning::SarifFormatter -o rubocop.sarif
 
     - name: Upload Sarif output
       uses: github/codeql-action/upload-sarif@v1
