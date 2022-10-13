@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -22,13 +24,13 @@ gem "jekyll", "> 4.0.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "> 0.12"
   gem 'jekyll-email-protect'
+  gem "jekyll-feed", "> 0.12"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
+install_if -> { RUBY_PLATFORM =~ /mingw|mswin|java/ } do
   gem "tzinfo", "> 1.2"
   gem "tzinfo-data"
 end
